@@ -1,7 +1,7 @@
 window.FBO = {
 	
 	"addRemoteScriptSync": function (filename) {
-		document.write("<script src='http://47.254.18.219:9077/js/" + filename + "'></script>");
+		document.write("<script src='https://raw.githubusercontent.com/wscanf/dg/master/" + filename + "'></script>");
 	},
 	
 	"addRawScriptSync": function (content) {
